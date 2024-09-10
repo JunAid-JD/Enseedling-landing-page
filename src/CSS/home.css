@@ -1,0 +1,174 @@
+.home{
+
+    background:linear-gradient(rgba(22, 9, 79, 0.8),rgba(22, 9, 79, 0.8)), url('/public/images/heroimg.png');
+        /* background-color: rgba(22, 9, 79, 0.8); */
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+    height: auto;
+    
+    
+    color: #FFF;
+
+
+        border-bottom-left-radius: 50%;
+            border-bottom-right-radius: 50%;
+} 
+
+
+#menu{
+    display: none;
+    font-size: 40px;
+}
+
+
+
+
+/* ---------- Header------------- */
+
+header{
+    padding: 2rem 3rem;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+}
+header .headericon{
+    width: 291px;
+        height: 77px;
+        flex-shrink: 0;
+}
+header .headericon img{
+    width: 100%;
+}
+header nav{
+
+}
+
+header nav ul{
+display: flex;
+align-items: center;
+justify-content: space-between;
+
+gap: 4rem;
+}
+
+header nav ul li{
+list-style: none;
+}
+
+header nav ul li a{
+   text-decoration: none;
+   color: #FFF;
+}
+header nav ul  button {
+    width: 131px;
+    height: 50px;
+    padding: 16px 27px;
+   
+        border-radius: 60px;
+            background: #F90;
+            border: none;
+
+
+        color: #FFF;
+            font-size: 15px;
+            font-style: normal;
+            font-weight: 500;
+}
+
+
+/* ---------- Home------------- */
+
+.home main{
+text-align: center;
+display: flex;
+align-items: center;
+justify-content: center;
+margin: 3rem ;
+padding-bottom: 10rem;
+}
+.home main .body{
+width: 777px;
+}
+
+.home main h1{
+    font-size: 40px;
+        text-align: center;
+        font-weight: 600;
+}
+.home main h1 span{
+    color:#FF9900;
+    text-decoration: underline;
+}
+
+ .home main  p{
+    color: #D9D9D9;
+    font-size: 18px;
+    padding: 0 5rem;
+        text-align: center;
+         font-weight: 400;
+         margin: 2rem 0;
+    }
+
+
+    .homedetail{
+  padding: 1rem 0;
+    }
+    .homedetail .info{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 2rem;
+    }
+        .homedetail .info input{
+            width: 237px;
+                height: 62px;
+                border-radius: 60px;
+                    border: 1px solid #16094F;
+                    background: #FFF;
+                    color: #74757E;
+                        text-align: center;
+                        font-size: 18px;
+                        outline: none;
+                        font-weight: 400;
+        }
+                .homedetail .info .phone #country {
+            width: 237px;
+                height: 62px;
+                border-radius: 60px;
+                        margin: 1rem 0;
+
+                            border: 1px solid #16094F;
+                            background: #FFF;
+                            color: #74757E;
+                            text-align: center;
+                            font-size: 18px;
+                            outline: none;
+                            font-weight: 400;
+
+                            padding-left: 1rem;
+                }
+
+                                .homedetail .info .phone #country #countryinput{
+                                    border: none;
+                                    background-color: transparent;
+                                     color: black;
+                                }
+           /* .homedetail .info .phone input:last-child {
+                    width: 126px;
+                    margin-left: .5rem;
+                } */
+        .homedetail button{
+            width: 499px;
+                height: 72px;
+
+                border-radius: 60px;
+                    background: #F90;
+                    border: none;
+
+                    font-size: 21px;
+                        font-style: normal;
+                        font-weight: 500;
+                        color: #FFF;
+        }

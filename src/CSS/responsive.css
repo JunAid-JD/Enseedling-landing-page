@@ -1,0 +1,327 @@
+.responsiveNav {
+    position: absolute;
+    background: rgba(22, 9, 79, 0.99);
+    top: 0;
+    height: 84vh;
+    width: 65vw;
+    right: 0rem;
+    z-index: 999;
+
+    align-items: start;
+    display: flex;
+    padding-top: 2rem;
+    transition: all .4s ease;
+}
+
+.responsiveUl {
+    display: flex;
+    align-items: start;
+    justify-content: flex-start;
+    margin: 0 40px 0 30px;
+    flex-direction: column;
+}
+.responsiveUl button{
+    width: 131px;
+        height: 50px;
+        padding: 16px 27px;
+    
+        border-radius: 60px;
+        background: #F90;
+        border: none;
+    
+    
+        color: #FFF;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 500;
+}
+.responsiveLi {
+    margin: 15px 15px;
+    display: flex;
+    align-items: center;
+    color: #FFF;
+    text-transform: capitalize;
+    padding-bottom: 5px;
+    cursor: pointer;
+    transition: all .2s;
+}
+
+#cancel{
+    position: absolute;
+    top: 1rem ;
+    right: 1rem;
+}
+
+
+
+@media screen and (max-width:1050px) {
+     nav{
+        display: none;
+     }
+
+     #menu{
+        display: block;
+     }
+
+
+.services .body .control{
+    gap: 2rem;
+}
+
+.services .body .control .customcarousal {
+      flex-wrap: wrap;
+      justify-content: center;
+}
+
+.faqsection .faqcontent .accordian {
+    width: 90%;
+}
+
+         .contact {
+            justify-content: center;
+            flex-wrap: wrap;
+         }
+
+         .contact .form .data input,
+         textarea,
+         select {
+             width: 95%;
+         }
+
+                 .contact .form .data button {
+                     width: 95%;
+                 }
+
+
+.corporate .cards {
+    justify-content: center;
+}
+.sliderbox {
+    flex-wrap: wrap;
+    justify-content: center;
+    height: auto;
+}
+
+}
+
+
+
+
+@media screen and (max-width:900px) {
+    .services .head h1 {
+            padding: 0;
+        }
+     footer .links .subscribe {
+                    margin: 4rem 0px;
+                }
+}
+
+
+
+@media screen and (max-width:780px) {
+    .responsiveNav {
+            height: 31vh;
+            width: 54vw;
+    }
+        .contact .form .social {
+            flex-wrap: wrap;
+        }
+}
+
+
+
+@media screen and (max-width:430px) {
+    .home{
+        border-bottom-left-radius: 35%;
+            border-bottom-right-radius: 35%;
+    }
+    .home main{
+            margin: 2rem;
+                padding-bottom: 5rem;
+    }
+    header .headericon {
+        display: none;
+    }
+
+          .responsiveNav {
+              height: 17rem;
+              width: 74vw;
+          }
+
+                .home main h1   {
+            font-size: 20px;
+                font-style: normal;
+                font-weight: 600;
+          }
+
+
+            .home main p {
+                                       font-size: 11px;
+                  font-style: normal;
+                  font-weight: 400;
+                  padding: 0 2rem;
+                                }
+
+
+                .homedetail .info {
+                    gap: 1rem;
+                }
+
+       .homedetail .info input {
+        width: 148px;
+            height: 42px;
+            font-size: 12px;
+                font-style: normal;
+                font-weight: 400;
+       }
+           .homedetail .info .phone #country {
+            width: 148px;
+                height: 42px;
+                font-size: 12px;
+                font-style: normal;
+                font-weight: 400;
+           }
+                   .homedetail button {
+                    width: 313px;
+                        height: 51px;
+                        font-size: 14px;
+                            font-style: normal;
+                            font-weight: 500;
+                   }
+
+
+
+
+
+   .corporate .head h1 {
+    font-size: 23px;
+        font-style: normal;
+        font-weight: 700;
+   }
+   .corporate .head p {
+font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+   }
+   .corporate .cards {
+    gap: 2rem 0;
+   }
+   .corporate .cards .card .body h3 {
+    padding: 0;
+   }
+
+   .services .head h1{
+    font-size: 21px;
+        font-style: normal;
+        font-weight: 700;
+   }
+
+   .services .head p{
+    font-size: 13px;
+        font-style: normal;
+        font-weight: 400;
+   }
+   .services .body .control button {
+    display: none;
+   }
+
+   .sliderbox .detail .head h3 {
+font-size: 21px;
+    font-style: normal;
+    font-weight: 700;
+   }
+   .sliderbox .detail .head p {
+    font-size: 13px;
+        font-style: normal;
+        font-weight: 400;
+   }
+   .sliderbox {
+    margin: 3rem 0rem;
+        padding: 1rem 1rem;
+   }
+   .sliderbox .detail .points p {
+    font-size: 13px;
+   }
+        .sliderbox .detail .link a {
+    font-size: 13px;
+        }
+                 .sliderbox .img {
+                    height: auto;
+                 }
+
+        .faqsection .faqheader h5 {
+            font-size: 21px;
+        }
+        .faqsection .faqheader h1 {
+            font-size: 25px;
+        }
+
+        .accordian .accordianheader h5 {
+            font-size: 15px;
+        }
+                .accordian .accordiancontent p {
+                    font-size: 13px;
+                }
+
+                 .faqsection .faqcontent .accordian {
+                    padding: 1rem;
+                 }
+         .accordian .accordianheader {
+            padding: .5rem 0;
+         }
+
+
+                 .contact {
+                    margin: 0 1rem 3rem;
+                    padding: 3rem 1rem;
+                 }
+.contact .form {
+    margin: 0;
+}
+        .contact .form h1 {
+            font-size: 21px;
+        }
+                .contact .form p {
+                    font-size: 13px;
+                }
+
+
+                .contact .map{
+                    width: 360px;
+                }
+         .contact .map img{
+            width: 100%;
+         }    
+         
+        footer .links {
+            gap: 3rem;
+        }
+                footer .links h5 {
+                    font-size: 15px;
+                }
+                  footer .links p {
+                    font-size: 13px;
+                  }
+footer .links .subscribe {
+    margin: 2rem 0px;
+}
+footer .groupicon {
+    position: absolute;
+    top: -1.4rem;
+    right: 0.5rem;
+}
+footer .groupicon img{
+        width: 65px;
+}
+footer .links .subscribe .subscribebox input {
+    font-size: 13px;
+    width: 190px;
+}
+footer .links .subscribe .subscribebox button {
+    padding: 16px 25px;
+    font-size: 13px;
+}
+footer .copyright {
+    flex-wrap: wrap;
+}
+}

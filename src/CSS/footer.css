@@ -1,0 +1,108 @@
+footer{
+background: #2D1D64;
+padding: 2rem 3rem ;
+
+margin-top: 5rem;
+
+position: relative;
+}
+footer .groupicon{
+  position: absolute;
+  top: -2rem;
+  right: 2rem;
+}
+
+footer .links{
+    display: flex;
+    /* align-items: center; */
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* gap: 8rem; */
+}
+
+footer .links h5{
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+color: #FFF;
+}
+
+footer .links p {
+font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    opacity: 0.6000000238418579;
+    color: #FFF;
+
+
+    padding-top: 1rem;
+}
+
+footer .links .subscribe{
+    margin-top: 8rem;
+}
+
+
+footer .links .subscribe .subscribebox{
+
+    margin-top: 1rem;
+    height: 56px;
+    border-radius: 8px;
+        background: #E5761A;
+}
+footer .links .subscribe .subscribebox input{
+    background-color: transparent;
+    border: none;
+    width: 270px;
+        height: 56px;
+        font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            /* opacity: 0.5; */
+            color: #FFF;
+            outline: none;
+
+            text-indent: 1rem;
+}
+
+footer .links .subscribe .subscribebox input::placeholder {
+    color: #FFF;
+    opacity: 0.5;
+}
+
+footer .links .subscribe .subscribebox button {
+    color: rgba(29, 33, 48, 1);
+    background-color: #FFF;
+    padding: 16px 40px;
+    border-radius: 12px;
+    border: none;
+    height: 56px;
+
+    font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+}
+
+footer .copyright{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+footer .copyright span{
+    width: 442px;
+        height: 1px;
+        background: #888;
+}
+footer .copyright p{
+    font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        opacity: 0.6000000238418579;
+            color: #FFF;
+}
+
+footer .copyright img{
+    filter: invert(50%);
+   /* color: rgba(255, 255, 255, 1); */
+}

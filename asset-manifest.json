@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/Enseedling-landing-page/static/css/main.52649a06.css",
+    "main.js": "/Enseedling-landing-page/static/js/main.ae655d65.js",
+    "static/media/heroimg.png": "/Enseedling-landing-page/static/media/heroimg.cfe8461b438743a38153.png",
+    "index.html": "/Enseedling-landing-page/index.html",
+    "main.52649a06.css.map": "/Enseedling-landing-page/static/css/main.52649a06.css.map",
+    "main.ae655d65.js.map": "/Enseedling-landing-page/static/js/main.ae655d65.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.52649a06.css",
+    "static/js/main.ae655d65.js"
+  ]
+}
